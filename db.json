@@ -1,0 +1,17 @@
+{
+  "investidores": [
+    {
+      "id": "5961",
+      "nome": "Humberto Teste",
+      "email": "teste@gmail.com",
+      "valor": "100000"
+    },
+    {
+      "id": "a882",
+      "nome": "Beto TESTE",
+      "email": "teste25@gmail.com",
+      "valor": "25000"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

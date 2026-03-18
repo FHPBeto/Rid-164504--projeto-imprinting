@@ -1,0 +1,50 @@
+/* Efeito de Fundo Dinâmico */
+body {
+  background: radial-gradient(circle at center, #1a1a2e 0%, #000 100%);
+  overflow-x: hidden;
+}
+
+/* Card com efeito Glassmorphism */
+.container {
+  background: rgba(17, 17, 17, 0.8);
+  backdrop-filter: blur(10px); /* Desfoca o fundo atrás do card */
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8), 0 0 20px rgba(168, 85, 247, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px); /* Pequeno salto ao passar o rato */
+}
+
+/* Botão com Animação de Pulsação Neon */
+button {
+  position: relative;
+  overflow: hidden;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 10px rgba(168, 85, 247, 0.5); }
+  50% { box-shadow: 0 0 25px rgba(168, 85, 247, 0.8); }
+  100% { box-shadow: 0 0 10px rgba(168, 85, 247, 0.5); }
+}
+
+/* Tabela Moderna */
+table {
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+th {
+  background: rgba(34, 211, 238, 0.1);
+  color: #22d3ee;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+}
+
+tr:hover {
+  background: rgba(168, 85, 247, 0.1);
+}
